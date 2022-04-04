@@ -1,0 +1,56 @@
+1.Insertion,updation and deletion anomoly are
+
+VisitNo - VisitDate , PatNo ,PatAge, PatCity, PatZip
+
+ProvNo - ProvSpecality
+
+
+2.
+
+PatNo , (PatAge,PatZip9)
+
+PatZIp9 , PatCity
+
+ProvNo ,ProvEmail
+
+VisitNo ,VisitDate
+
+VisitNo,ProvNo,Diagnosis
+
+PatNo,PatZip9,ProvNo,VisitNo
+
+
+3.
+
+StdNo -> StdName, StdEmail, StdZip)
+
+StdZip -> StdAddress, StdCity, StdState,
+
+LenderNo -> LenderName
+
+InstNo -> InstName
+
+InstNo ->InstMascot
+
+(StdNo,StdZip)
+
+
+
+4
+
+
+Fd                 falsifivation
+
+OrdNo,ItemNo        (1,2),(3,4)
+
+OrdNo,QtyOrd        (3,4)
+
+OrdNo,CustNo         None
+
+OrdNo,CustBal        None
+
+OrdNo,CustDisk       None
+
+OrdNo,ItemPrice     (1,2),(3,4)
+
+OrdNo,OrdDate       None
